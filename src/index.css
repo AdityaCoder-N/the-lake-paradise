@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'bartleen';
-    src: url('../public/fonts/Bartleen\ Script.otf');
+    src: url('/src/assets/fonts/BartleenScript.otf');
 }
 
 
