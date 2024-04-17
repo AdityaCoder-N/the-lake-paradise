@@ -16,7 +16,7 @@ export const Navbar = () => {
   return (
     <div className="w-[100vw] flex justify-between items-center px-4 md:px-[48px] py-8 sticky md:text-[18px] z-20">
       <a href="/" className="relative font-barlow">
-        <img src={logo} alt="Resnet Solutions" className="w-[100%]" width={100} />
+        <img src={logo} alt="logo" className="w-[100%]" width={100} />
         <div className="absolute flex items-center gap-1 w-[150px] top-[45%] -translate-y-1/2 left-[40%] ">
           <span>The Lake </span><span className="font-bold">Paradise</span>
         </div>

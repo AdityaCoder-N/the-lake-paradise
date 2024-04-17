@@ -7,6 +7,9 @@ import TopBanner from './components/TopBanner'
 import HeroSection from './components/HeroSection'
 import About from './components/About'
 import Amenities from './components/Amenities'
+import RoomImages from './components/RoomImages'
+import Location from './components/Location'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +22,9 @@ function App() {
       {/* Booking Section to be added */}
       <About/>
       <Amenities/>
+      <RoomImages/>
+      <Location/>
+      <Footer/>
     </div>
   )
 }
