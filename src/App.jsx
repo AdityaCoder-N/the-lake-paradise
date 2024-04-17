@@ -10,6 +10,8 @@ import Amenities from './components/Amenities'
 import RoomImages from './components/RoomImages'
 import Location from './components/Location'
 import Footer from './components/Footer'
+import BottomBanner from './components/BottomBanner'
+import Features from './components/Features'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,8 @@ function App() {
       <Amenities/>
       <RoomImages/>
       <Location/>
+      <BottomBanner/>
+      <Features/>
       <Footer/>
     </div>
   )
